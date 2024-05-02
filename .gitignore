@@ -1,0 +1,34 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.so
+*.a
+
+# Folders
+_vendor/
+vendor/
+bin/
+release/
+dist/
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories (remove the ones you don't use)
+vendor/
+Godeps/
+.vscode/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Environment files
+.env
+
+# IDE-specific files (remove the ones you don't use)
+.idea/
+.vscode/
+*.sublime-workspace
